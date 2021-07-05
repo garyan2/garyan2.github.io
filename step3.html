@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <!-- Site made with Mobirise Website Builder v5.3.10, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.10, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/epg123-512x512.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Step 3: EPG123 Server Setup - EPG123</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu menu2 cid-sBZ8pN6Ggs" once="menu" id="menu2-3z">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/logonoears-135x55.png" alt="" style="height: 3rem;">
+                    </a>
+                </span>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="download.html">Download</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="install.html">Install</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">Guides</a><div class="dropdown-menu"><a class="text-black dropdown-item text-primary display-4" href="underconstruction.html">Station Logos</a><a class="text-black dropdown-item text-primary display-4" href="underconstruction.html" aria-expanded="true">Tweak WMC</a><a class="text-black dropdown-item text-primary display-4" href="underconstruction.html" aria-expanded="true">Transfer Tool</a><a class="text-black dropdown-item text-primary display-4" href="underconstruction.html" aria-expanded="true">Channel Mapping</a><a class="text-black dropdown-item text-primary display-4" href="underconstruction.html" aria-expanded="true">Miscellaneous</a></div></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="underconstruction.html">Troubleshoot</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="support.html">Support</a></li></ul>
+                
+                
+                <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image">
+                        <img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0">
+                        <input name="cmd" type="hidden" value="_donations">
+                        <input name="business" type="hidden" value="RMHX9WTNRZPBC">
+                        <input name="item_name" type="hidden" value="epg123">
+                        <input name="currency_code" type="hidden" value="USD">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="content5 cid-sBEV8LqHVk" id="content5-1c">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                    Step 3: EPG123 Server Setup</h4>
+                <p class="mbr-text mbr-fonts-style display-7"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4yFDu10p" id="content5-4j">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7">A <a href="https://schedulesdirect.org" class="text-primary" target="_blank"><strong>Schedules Direct</strong></a> membership ($25USD/year, 7-day free trial) needs to be established prior to this step. There is no configuration to perform on their website which only manages the XML server (SD-DD); EPG123 uses their JSON server (SD-JSON).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4z3m2qKa" id="content5-4k">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                
+                
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ol>
+                        <li>If the <strong>‘Automatically proceed to next step’</strong> option is not active, click the <strong>[Step 3: Configure]</strong> button when it is enabled to open the <strong>EPG123 Configuration</strong> program.</li>
+                        <li>Enter the <strong>Login Name</strong> and <strong>Password</strong> of the Schedules Direct account to be used and click the <strong>[Login]</strong> button.</li>
+                        <a class="anchor" id="lineups"></a><span style="color:blue;"><h5><br><strong><em>Subscribe Lineups to Schedules Direct Account</em></strong></h5></span>
+                        <li>If there are no lineups associated with the account, the <strong>‘Subscribed Lineups’</strong> window will be presented automatically. If there are already lineups associated with the account and changes are desired, click the <strong>[Lineups]</strong> button. Otherwise, proceed to step 9.</li>
+                    </ol>
+                </div>
+                <div class="image-wrapper col-12">
+                    <img src="assets/images/addlineup.png" width="" alt="" height="593">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>WARNING:</strong> Schedules Direct limits the number of lineup additions to a maximum of 6 in any 24-hour period. Ensure all the desired lineups are subscribed to within that limitation. The number of lineup additions will only be incremented once step 8 is completed by clicking the <strong>[Apply &amp; Exit]</strong> button.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4A8LArwI" id="content5-4l">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                
+                
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ol>
+                        <li>Click the <strong>[Add New]</strong> control button to bring up the <strong>‘Lineup Search’</strong> window.</li>
+                        <li>Select the Country and enter the Postal Code of the lineups to search for and click the <strong>[Fetch]</strong> button.</li>
+                        <li>Double-Click the desired lineup to add from the fetch results. You can preview the channels of any lineups by right-clicking the lineup names.</li>
+                        <li>Repeat steps 4 – 6 as necessary to subscribe to as many lineups your Schedules Direct account allows.</li>
+                        <li>Click the <strong>[Apply &amp; Exit]</strong> button on the ‘Subscribed Lineups’ window.</li>
+                        <a class="anchor" id="stations"></a><span style="color:blue"><h5><br><strong><em>Select Stations to Download</em></strong></h5></span>
+                        <li>Ensure each lineup to download from is included in the guide download. The selection will be identified by both the green bubble on the toolstrip and the checkmark by the <strong>‘Include’</strong> menu item.</li>
+                    </ol>
+                </div>
+                <div class="image-wrapper col-12" align="center">
+                    <img src="assets/images/include.png" style="max-width:203px" width="" alt="" height="98">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-7">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4AXVV913" id="content5-4m">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                
+                
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ol>
+                        <li>For each subscribed lineup in the pulldown combobox, select the desired stations to download guide information for by checking the box next to the station call sign.</li>
+                    </ol>
+                </div>
+                
+            </div>
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> Stations that are common within and between subscribed lineups are linked. This means that if a station is selected for download in one lineup, it will also be selected in the other lineup(s). The same is true when a station is de-selected.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4Bse0FIE" id="content5-4n">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> Be aware of stations assigned to the same channel number. Sometimes a provider will list both SD and HD stations on the same channel. For the most accurate guide, only select the station that is appropriate to your specific source.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4BITwTxb" id="content5-4o">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                
+                
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ol>
+                        <a class="anchor" id="configure"></a><span style="color:blue"><h5><br><strong><em>Select Configuration Options</em></strong></h5></span>
+                        <li>In the <strong>Configuration</strong> and <strong>XMLTV</strong> tabs, set the parameters according to the desired usage and outcome. The recommended options for most users are preselected. Refer to <a href="serveroptions.html" class="text-primary"><strong>EPG123 Options</strong></a> to see definitions of each option.</li>
+                        <li>Configure the completion activities for when EPG123 has finished building the MXF file. These options are only available if the EPG123 Client software has been installed and WMC is present on the host computer.</li>
+                    </ol>
+                </div>
+                <div class="image-wrapper col-12" align="center">
+                    <img src="assets/images/schtask.png" width="" alt="" style="max-width:318px" height="142">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-7">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-sC4CrMQRH7" id="content5-4p">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                
+                
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ol>
+                        <li>Click the <strong>[Save &amp; Execute]</strong> button to save the configuration and immediately start downloading guide data to perform the update as configured.</li>
+                    </ol>
+                </div>
+                
+            </div>
+            <div class="col-md-12 col-lg-7">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content12 cid-sCahgncMSq" id="content12-4z">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="mbr-section-btn align-center display-7">
+                    <a id="btnPrev" class="btn btn-primary" href="step2.html">← Step 2: TV Setup</a>
+                    <a id="btnNext" class="btn btn-primary" href="task.html">Schedule Updates →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function (w) {
+            w.URLSearchParams = w.URLSearchParams || function (searchString) {
+                var self = this;
+                self.searchString = searchString;
+                self.get = function (name) {
+                    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(self.searchString);
+                    if (results == null) {
+                        return null;
+                    }
+                    else {
+                        return decodeURI(results[1]) || 0;
+                    }
+                };
+            }
+        })(window)
+        
+        window.onload = function updateButtons()
+        {
+            var nextBtn = document.getElementById("btnNext");
+            nextBtn.href += window.location.search + "#full";
+
+            var prevBtn = document.getElementById("btnPrev");
+            prevBtn.href += window.location.search;
+
+            var urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get("client") == "none")
+            {
+                prevBtn.href = "install.html";
+                prevBtn.textContent = "← Install";
+                nextBtn.href = "task.html" + window.location.search + "#server";
+            }
+        }
+    </script>
+</section>
+
+<section class="footer3 cid-sChfINJhMO" once="footers" id="footer3-69">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            
+            
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2021 GaRyan2. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/b" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Web page was <a href="https://mobirise.site/h" style="color:#aaa;">built with</a> Mobirise</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  </body>
+</html>

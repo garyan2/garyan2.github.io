@@ -4093,7 +4093,7 @@ a {
   background-color: #ffffff;
 }
 .cid-sCdjq9vDxH {
-  padding-top: 0rem;
+  padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -4111,7 +4111,7 @@ a {
 }
 .cid-sCdt9LWaSa {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -4154,6 +4154,11 @@ a {
 }
 .cid-sCdIF0d6be .btn {
   width: 170px;
+}
+.cid-sCuKqLIi4m {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
 }
 .cid-sBZ8pN6Ggs {
   z-index: 1000;

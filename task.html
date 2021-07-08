@@ -125,7 +125,7 @@
                     <span style="color:blue;font-size:1.3rem;"><strong><em>Server Mode</em></strong><br></span>
                     The server mode is limiting EPG123 to just creating the MXF and XMLTV files for import by another machine. The task needs to be scheduled using the <strong>EPG123 Configuration GUI</strong> with the <strong>‘Automatically import’</strong> option unchecked. The location of the MXF file must be accessible to any clients. Jump to&nbsp;<a href="#create" class="text-primary"><strong>Create the Task</strong></a>.</p>                
                 <div class="image-wrapper col-12" align="center">
-                    <img src="assets/images/taskserver.png" alt="" style="max-width:322px" height="113">
+                    <img src="assets/images/taskserver.png" alt="" style="max-width:318px" height="142">
                 </div>
             </div>
             <div class="col-md-12 col-lg-7">
@@ -151,7 +151,7 @@
                     <span style="color:blue;font-size:1.3rem;"><strong><em>Client Mode</em></strong><br></span>
                     The client mode is used by machines that do not generate the MXF file but imports the file from another location (i.e. a different machine in Server Mode or Full Mode). The task needs to be scheduled using the <strong>EPG123 Client GUI</strong> and the path to the MXF file set in the text box. Jump to&nbsp;<a href="#create" class="text-primary"><strong>Create the Task</strong></a>.</p>
                 <div class="image-wrapper col-12" align="center">
-                    <img src="assets/images/taskclient.png" alt="" style="max-width:414px;" height="102">
+                    <img src="assets/images/taskclient.png" alt="" style="max-width:414px;" height="101">
                 </div>
             </div>
             <div class="col-md-12 col-lg-7">
@@ -232,8 +232,8 @@
                 prevBtn.href = "hdhr2mxf.html" + window.location.search;
                 prevBtn.innerHTML = "&larr; Step 3: HDHR2MXF Server Setup";
             } else if (urlParams.get("server") == "none") {
-                prevBtn.href = "step2.html" + window.location.search;
-                prevBtn.innerHTML = "&larr; Step 2: TV Setup";
+                prevBtn.href = "import.html" + window.location.search;
+                prevBtn.innerHTML = "&larr; Step 3: Import MXF File";
             }
         }
     </script>

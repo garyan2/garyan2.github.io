@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The alternate TV program guide provider for WMC and more",
-    "currentPage": "install.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -54,7 +54,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 238,
+    "uniqCompNum": 245,
     "versionPublish": "5.3.10",
     "imageResize": false,
     "screenshot": "screenshot.png",
@@ -921,7 +921,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <header>Ordered List</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"range\" title=\"Starting Number\" name=\"startNumber\" min=\"1\" max=\"20\" value=\"4\" step=\"1\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"1024\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\">\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li>If you do not use a CableCARD™ for DRM (encrypted) channels, and are prompted to <b>'Install PlayReady',</b> select the <b>'I do not agree'</b> radio button and click <b>[Next]</b>.</li>\n                    </ol>\n                </div>\n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/playready.jpg\" style=\"max-width:{{imageWidth}}px\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to thide/show button, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and themes.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <header>Ordered List</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"range\" title=\"Starting Number\" name=\"startNumber\" min=\"1\" max=\"20\" value=\"4\" step=\"1\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"1024\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\">\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li>If you do not use a CableCARD™ for DRM (encrypted) channels, and are prompted to <b>'Install PlayReady',</b> select the <b>'I do not agree'</b> radio button and click <b>[Yes]</b>.</li>\n                    </ol>\n                </div>\n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/playready.jpg\" style=\"max-width:{{imageWidth}}px\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to thide/show button, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and themes.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-4c",
           "_isUserblock": true,
           "_cid": "sC3UYPmLja",
@@ -1082,7 +1082,7 @@
           },
           "_name": "content12",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\">\n                    <a id=\"btnPrev\" class=\"btn btn-primary\" href=\"step1.html\">&larr; Step 1: Clean Start</a>\n                    <a id=\"btnNext\" class=\"btn btn-primary\" href=\"step3.html\">Step 3: EPG123 Server Setup &rarr;</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <script>\n        (function (w) {\n            w.URLSearchParams = w.URLSearchParams || function (searchString) {\n                var self = this;\n                self.searchString = searchString;\n                self.get = function (name) {\n                    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(self.searchString);\n                    if (results == null) {\n                        return null;\n                    }\n                    else {\n                        return decodeURI(results[1]) || 0;\n                    }\n                };\n            }\n        })(window)\n        \n        window.onload = function updateButtons()\n        {\n            var nextBtn = document.getElementById(\"btnNext\");\n            nextBtn.href += window.location.search;\n            \n            var prevBtn = document.getElementById(\"btnPrev\");\n            prevBtn.href += window.location.search;\n            \n            var urlParams = new URLSearchParams(window.location.search);\n            if (urlParams.get(\"server\") == \"hdhr2mxf\")\n            {\n                nextBtn.href = \"hdhr2mxf.html\" + window.location.search;\n                nextBtn.innerHTML = \"Step 3: HDHR2MXF Server Setup &rarr;\";\n            } else if (urlParams.get(\"server\") == \"none\") {\n                nextBtn.href = \"task.html\" + window.location.search + \"#client\";\n                nextBtn.innerHTML = \"Schedule Updates &rarr;\";\n            }\n        }\n    </script>\n</section>",
+          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\">\n                    <a id=\"btnPrev\" class=\"btn btn-primary\" href=\"step1.html\">&larr; Step 1: Clean Start</a>\n                    <a id=\"btnNext\" class=\"btn btn-primary\" href=\"step3.html\">Step 3: EPG123 Server Setup &rarr;</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <script>\n        (function (w) {\n            w.URLSearchParams = w.URLSearchParams || function (searchString) {\n                var self = this;\n                self.searchString = searchString;\n                self.get = function (name) {\n                    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(self.searchString);\n                    if (results == null) {\n                        return null;\n                    }\n                    else {\n                        return decodeURI(results[1]) || 0;\n                    }\n                };\n            }\n        })(window)\n        \n        window.onload = function updateButtons()\n        {\n            var nextBtn = document.getElementById(\"btnNext\");\n            nextBtn.href += window.location.search;\n            \n            var prevBtn = document.getElementById(\"btnPrev\");\n            prevBtn.href += window.location.search;\n            \n            var urlParams = new URLSearchParams(window.location.search);\n            if (urlParams.get(\"server\") == \"hdhr2mxf\")\n            {\n                nextBtn.href = \"hdhr2mxf.html\" + window.location.search;\n                nextBtn.innerHTML = \"Step 3: HDHR2MXF Server Setup &rarr;\";\n            } else if (urlParams.get(\"server\") == \"none\") {\n                nextBtn.href = \"import.html\" + window.location.search;\n                nextBtn.innerHTML = \"Step 3: Import MXF File &rarr;\";\n            }\n        }\n    </script>\n</section>",
           "_cid": "sC9XMpI7r5",
           "_anchor": "content12-4y",
           "_protectedParams": [],
@@ -2244,7 +2244,7 @@
     "serveroptions.html": {
       "settings": {
         "title": "EPG123 Options - EPG123",
-        "order": 8
+        "order": 10
       },
       "components": [
         {
@@ -4618,7 +4618,7 @@
           },
           "_name": "content11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <nav class=\"align-center\" mbr-theme-style=\"display-7\">\n                    <a href=\"step1.html\">Clean Start</a> |\n                    <a href=\"step2.html\">TV Setup</a> |\n                    <a href=\"step3.html\">EPG123 Server Setup</a> |\n                    <a href=\"hdhr2mxf.html?server=hdhr2mxf\">HDHR2MXF Server Setup</a> |\n                    <a href=\"task.html\">Schedule Updates</a>\n                </nav>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <nav class=\"align-center\" mbr-theme-style=\"display-7\">\n                    <a href=\"step1.html\">Clean Start</a> |\n                    <a href=\"step2.html\">TV Setup</a> |\n                    <a href=\"step3.html\">EPG123 Server Setup</a> |\n                    <a href=\"hdhr2mxf.html?server=hdhr2mxf\">HDHR2MXF Server Setup</a> |\n                    <a href=\"import.html?server=none\">Import MXF File</a> |\n                    <a href=\"task.html\">Schedule Updates</a>\n                </nav>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sCuKqLIi4m",
           "_anchor": "content11-6k",
           "_protectedParams": [],
@@ -5123,7 +5123,7 @@
     "hdhr2mxf.html": {
       "settings": {
         "title": "Step 3: HDHR2MXF Server Setup - EPG123",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -5773,7 +5773,7 @@
     "task.html": {
       "settings": {
         "title": "Schedule Updates - EPG123",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -5825,7 +5825,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"414\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"103\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"full\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Full Mode</i></b><br></span>\n                    The full mode operation is used to create and import the MXF file on the same machine. The task can be scheduled using either the <b>EPG123 Configuration GUI</b> with the <b>‘Automatically import guide data into WMC’</b> option checked, or using the <b>EPG123 Client GUI</b> with the <b>‘Full Mode’</b> radio button selected. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>                  \n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskfull.png\" style=\"max-width:{{imageWidth}}px;\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If using <b>HDHR2MXF</b>, the task can only be created in the client. Make sure the text box is showing the location of the <b>hdhr2mxf.exe</b>. If you need to change it, just click the text box to bring up a file browser window.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"414\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"103\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"full\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Full Mode</i></b><br></span>\n                    The full mode operation is used to create and import the MXF file on the same machine. The task can be scheduled using either the <b>EPG123 Configuration GUI</b> with the <b>‘Automatically import guide data into WMC’</b> option checked, or using the <b>EPG123 Client GUI</b> with the <b>‘Full Mode’</b> radio button selected. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>                  \n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskfull.png\" style=\"max-width:{{imageWidth}}px;\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If using <b>HDHR2MXF</b>, the task can only be created in the client. Make sure the text box is showing the location of the <b>hdhr2mxf.exe</b>. If you need to change it, just click the text box to bring up a file browser window.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-5p",
           "_isUserblock": true,
           "_cid": "sCdXcPxUbJ",
@@ -5866,7 +5866,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"322\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"113\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"server\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Server Mode</i></b><br></span>\n                    The server mode is limiting EPG123 to just creating the MXF and XMLTV files for import by another machine. The task needs to be scheduled using the <b>EPG123 Configuration GUI</b> with the <b>‘Automatically import’</b> option unchecked. The location of the MXF file must be accessible to any clients. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>                \n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskserver.png\" style=\"max-width:{{imageWidth}}px\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If using <b>HDHR2MXF</b> in server mode only, it will be necessary to create the task manually in Task Scheduler. Refer to <a href=\"hdhr2mxf.html\" class=\"text-primary\"><b>Step 3: HDHR2MXF Server Setup</b></a> for command line options.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"318\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"142\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"server\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Server Mode</i></b><br></span>\n                    The server mode is limiting EPG123 to just creating the MXF and XMLTV files for import by another machine. The task needs to be scheduled using the <b>EPG123 Configuration GUI</b> with the <b>‘Automatically import’</b> option unchecked. The location of the MXF file must be accessible to any clients. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>                \n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskserver.png\" style=\"max-width:{{imageWidth}}px\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If using <b>HDHR2MXF</b> in server mode only, it will be necessary to create the task manually in Task Scheduler. Refer to <a href=\"hdhr2mxf.html\" class=\"text-primary\"><b>Step 3: HDHR2MXF Server Setup</b></a> for command line options.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-5n",
           "_isUserblock": true,
           "_cid": "sCdQZuZCPE",
@@ -5907,7 +5907,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"414\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"102\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"client\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Client Mode</i></b><br></span>\n                    The client mode is used by machines that do not generate the MXF file but imports the file from another location (i.e. a different machine in Server Mode or Full Mode). The task needs to be scheduled using the <b>EPG123 Client GUI</b> and the path to the MXF file set in the text box. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>\n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskclient.png\" style=\"max-width:{{imageWidth}}px;\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If the location of the remote MXF file is user/password protected, it will be necessary to edit the task in <b>Task Scheduler</b> to provide the appropriate credentials.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Test</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Image</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <fieldset>\n            <input type=\"text\" title=\"Image Width\" name=\"imageWidth\" value=\"414\" condition=\"showImage\">\n            <input type=\"text\" title=\"Image Height\" name=\"imageHeight\" value=\"101\" condition=\"showImage\">\n        </fieldset>\n        <header>Note</header>\n        <input type=\"checkbox\" title=\"Note\" name=\"showNote\" checked>\n        <fieldset>\n            <input type=\"range\" title=\"Note Width\" name=\"noteWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\" condition=\"showNote\">\n            <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\" condition=\"showNote\">\n        </fieldset>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <a class=\"anchor\" id=\"client\"></a>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span style=\"color:blue;font-size:1.3rem;\"><b><i>Client Mode</i></b><br></span>\n                    The client mode is used by machines that do not generate the MXF file but imports the file from another location (i.e. a different machine in Server Mode or Full Mode). The task needs to be scheduled using the <b>EPG123 Client GUI</b> and the path to the MXF file set in the text box. Jump to&nbsp;<a href=\"#create\" class=\"text-primary\"><b>Create the Task</b></a>.</p>\n                <div class=\"image-wrapper col-12\" align=\"center\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taskclient.png\" style=\"max-width:{{imageWidth}}px;\" height=\"{{imageHeight}}\" alt>\n                </div>\n            </div>\n            <div class=\"col-md-12 col-lg-{{noteWidth}}\">\n                <div class=\"card-wrapper\" mbr-if=\"showNote\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> If the location of the remote MXF file is user/password protected, it will be necessary to edit the task in <b>Task Scheduler</b> to provide the appropriate credentials.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-5o",
           "_isUserblock": true,
           "_cid": "sCdWCYYY0M",
@@ -5990,7 +5990,7 @@
           },
           "_name": "content12",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\">\n                    <a id=\"btnPrev\" class=\"btn btn-primary\" href=\"step3.html\">&larr; Step 3: EPG123 Server Setup</a>\n                    <a id=\"btnNext\" class=\"btn btn-primary\" href=\"finish.html\">Finish &rarr;</a></div>\n            </div>\n        </div>\n    </div>\n    <script>\n        (function (w) {\n            w.URLSearchParams = w.URLSearchParams || function (searchString) {\n                var self = this;\n                self.searchString = searchString;\n                self.get = function (name) {\n                    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(self.searchString);\n                    if (results == null) {\n                        return null;\n                    }\n                    else {\n                        return decodeURI(results[1]) || 0;\n                    }\n                };\n            }\n        })(window)\n        \n        window.onload = function updateButtons()\n        {\n            var nextBtn = document.getElementById(\"btnNext\");\n            nextBtn.href += window.location.search;\n\n            var prevBtn = document.getElementById(\"btnPrev\");\n            prevBtn.href += window.location.search;\n\n            var urlParams = new URLSearchParams(window.location.search);\n            if (urlParams.get(\"server\") == \"hdhr2mxf\")\n            {\n                prevBtn.href = \"hdhr2mxf.html\" + window.location.search;\n                prevBtn.innerHTML = \"&larr; Step 3: HDHR2MXF Server Setup\";\n            } else if (urlParams.get(\"server\") == \"none\") {\n                prevBtn.href = \"step2.html\" + window.location.search;\n                prevBtn.innerHTML = \"&larr; Step 2: TV Setup\";\n            }\n        }\n    </script>\n</section>",
+          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\">\n                    <a id=\"btnPrev\" class=\"btn btn-primary\" href=\"step3.html\">&larr; Step 3: EPG123 Server Setup</a>\n                    <a id=\"btnNext\" class=\"btn btn-primary\" href=\"finish.html\">Finish &rarr;</a></div>\n            </div>\n        </div>\n    </div>\n    <script>\n        (function (w) {\n            w.URLSearchParams = w.URLSearchParams || function (searchString) {\n                var self = this;\n                self.searchString = searchString;\n                self.get = function (name) {\n                    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(self.searchString);\n                    if (results == null) {\n                        return null;\n                    }\n                    else {\n                        return decodeURI(results[1]) || 0;\n                    }\n                };\n            }\n        })(window)\n        \n        window.onload = function updateButtons()\n        {\n            var nextBtn = document.getElementById(\"btnNext\");\n            nextBtn.href += window.location.search;\n\n            var prevBtn = document.getElementById(\"btnPrev\");\n            prevBtn.href += window.location.search;\n\n            var urlParams = new URLSearchParams(window.location.search);\n            if (urlParams.get(\"server\") == \"hdhr2mxf\")\n            {\n                prevBtn.href = \"hdhr2mxf.html\" + window.location.search;\n                prevBtn.innerHTML = \"&larr; Step 3: HDHR2MXF Server Setup\";\n            } else if (urlParams.get(\"server\") == \"none\") {\n                prevBtn.href = \"import.html\" + window.location.search;\n                prevBtn.innerHTML = \"&larr; Step 3: Import MXF File\";\n            }\n        }\n    </script>\n</section>",
           "_cid": "sBSQ6AFFis",
           "_anchor": "content12-3s",
           "_protectedParams": [],
@@ -6510,6 +6510,34 @@
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Add Missing Channels</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Some OTA users will have missing channels once the TV Setup scanning has completed. This is due to Windows Media Center on Windows 7 not scanning the VHF frequencies (RF channels 2 - 13) during setup for ATSC signals. For those missing channels, it will be necessary to manually add them.\n<br>\n<br>For missing ATSC channels, you will need to determine what the missing station RF channel is, along with what the virtual channel is, by looking that information up online, or using another source such as the tuner itself and its' software package. Some online resources include <a href=\"https://www.tvfool.com\" class=\"text-primary\"><b>TV Fool</b></a>, <a href=\"https://antennaweb.org\" class=\"text-primary\"><b>AntennaWeb</b></a>, and <a href=\"https://www.rabbitears.info\" class=\"text-primary\"><b>RabbitEars</b></a>.<br><br>For missing ClearQAM channels, you will need to determine the digital channel and physical channel from the tuner and its' software package.<br><br>Within WMC, you can manually add&nbsp; channels by going to <b>[settings]→[TV]→[Guide]→[Add Missing Channels]</b> from the Tasks menu strip and enter the appropriate information. Within EPG123, you can manually add channels as well. DVB and ISDB channels are not supported at this time.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sBLlFaKDfn",
           "_anchor": "content5-30",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".card-wrapper": {
+              "background": "@noteBg",
+              "border-radius": "4px",
+              "padding-top": "1rem",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-bottom": "0",
+              "margin-top": "1rem",
+              "margin-bottom": "0"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" title=\"Width\" name=\"textWidth\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <header>Note</header>\n        <input type=\"color\" title=\"Note Background\" name=\"noteBg\" value=\"#c2c1c1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>NOTE:</b> The ability to add channels in EPG123 will not be available while performing a <b>Client Setup</b>. You can perform the channel additions manually within WMC during <b>Step 2: TV Setup</b> or wait until after setup is complete.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-6s",
+          "_isUserblock": true,
+          "_cid": "sCBs9WpFAX",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7094,7 +7122,7 @@
     "map.html": {
       "settings": {
         "title": "Map Listings",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -7634,7 +7662,7 @@
     "transfer.html": {
       "settings": {
         "title": "Transfer Recording Requests",
-        "order": 12,
+        "order": 13,
         "meta_descr": ""
       },
       "components": [
@@ -8774,7 +8802,7 @@
     "support.html": {
       "settings": {
         "title": "Support - EPG123",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -9291,7 +9319,7 @@
     "finish.html": {
       "settings": {
         "title": "Finish",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -9798,6 +9826,581 @@
           "_isUserblock": true,
           "_cid": "sCkyei2IPo",
           "_anchor": "footer3-6h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "import.html": {
+      "settings": {
+        "title": "Step 3: Import MXF File - EPG123",
+        "order": 9
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Step 3: Import MXF File</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">For client mode setup, you will have to direct the client where to find the remote MXF file to import. Navigate to the location of the shared MXF file and select it for import. Once the import is complete, you will be able to continue to the next step.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sCxjSvO0JD",
+          "_anchor": "content5-6m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\" align=\"center\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mxfsearch.png\" style=\"max-width:771px\" height alt>\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sCApsM6qK8",
+          "_anchor": "image3-6r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logonoears-135x45.png\" alt mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">by<br>GaRyan2</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"download.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Download</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"install.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Install</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Guides</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Station Logos</a><a class=\"text-black dropdown-item text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Tweak WMC</a><a class=\"text-black dropdown-item text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Transfer Tool</a><a class=\"text-black dropdown-item text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Channel Mapping</a><a class=\"text-black dropdown-item text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Miscellaneous</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"underconstruction.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Troubleshoot</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"support.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Support</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/donate?business=paypal%40palmeryan.net&no_recurring=0&currency_code=USD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>Donate</a></div>\n                <div align=\"center\">\n                    <form action=\"https://www.paypal.com/donate\" method=\"post\" target=\"_top\">\n                        <input type=\"hidden\" name=\"business\" value=\"RMHX9WTNRZPBC\">\n                        <input type=\"hidden\" name=\"no_recurring\" value=\"0\">\n                        <input type=\"hidden\" name=\"item_name\" value=\"epg123\">\n                        <input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n                        <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\">\n                        <img alt border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n                    </form>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_cid": "sCxjSvWjMm",
+          "_anchor": "menu2-6n",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-btn": {
+              "justify-content": "space-between",
+              "display": "flex",
+              "flex-wrap": "wrap"
+            }
+          },
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\">\n                    <a id=\"btnPrev\" class=\"btn btn-primary\" href=\"step2.html\">&larr; Step 2: TV Setup</a>\n                    <a id=\"btnNext\" class=\"btn btn-primary\" href=\"task.html\">Schedule Updates &rarr;</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <script>\n        window.onload = function updateButtons()\n        {\n            var nextBtn = document.getElementById(\"btnNext\");\n            nextBtn.href += window.location.search + \"#client\";\n            \n            var prevBtn = document.getElementById(\"btnPrev\");\n            prevBtn.href += window.location.search;\n        }\n    </script>\n</section>",
+          "_anchor": "content12-6p",
+          "_isUserblock": true,
+          "_cid": "sCxnbOV2Qd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "center",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"footer3\" group=\"Footers\" global=\"\" once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://mobirise.com/help/\" class=\"text-success\">Help Center</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n\n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2021 GaRyan2. All Rights Reserved.\n                </p>\n            </div>\n        </div>\n    </div>\n    \n    \n</section>",
+          "_isUserblock": true,
+          "_cid": "sCxjSwz21U",
+          "_anchor": "footer3-6o",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",

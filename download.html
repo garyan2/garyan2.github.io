@@ -177,9 +177,11 @@
                             file1.innerHTML = "<b>" + data[0].assets[0].name + "</b> (" + data[0].assets[0].download_count + ")";
                             file1.href = data[0].assets[0].browser_download_url;
                             
-                            var file2 = document.getElementById("betaPortable");
-                            file2.innerHTML = "<b>" + data[0].assets[1].name + "</b> (" + data[0].assets[1].download_count + ")";
-                            file2.href = data[0].assets[1].browser_download_url;
+							if (data[0].assets.length == 2) {
+								var file2 = document.getElementById("betaPortable");
+								file2.innerHTML = "<b>" + data[0].assets[1].name + "</b> (" + data[0].assets[1].download_count + ")";
+								file2.href = data[0].assets[1].browser_download_url;
+							}
                             
                             document.getElementById("betaChange").innerHTML = data[0].body;
                         }

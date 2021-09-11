@@ -110,8 +110,8 @@
                 
                 <p class="mbr-text mbr-fonts-style display-7"><strong><u>Latest Release:</u></strong><br><br><strong>Version:</strong> <a id="version" class="text-primary"></a><br>
                     <strong>Release Date:</strong> <a id="release" class="text-primary"></a><br><br>
-                    <a id="dlSetup" href="" class="text-primary"></a> - Installation package for Win7/Win8/Win8.1/Win10<br>
-                    <a id="dlPortable" href="" class="text-primary"></a> - Portable package for Win7/Win8/Win8.1/Win10<br><br>
+                    <a id="dlSetup" href="" class="text-primary">N/A</a> - Installation package for Win7/Win8/Win8.1/Win10<br>
+                    <a id="dlPortable" href="" class="text-primary">N/A</a> - Portable package for Win7/Win8/Win8.1/Win10<br><br>
                     <strong><u>Changelog</u></strong><br>
                     <a id="changelog" class="text-primary"></a>
                     <br><br>To view the change logs and download current and past releases, click <a href="https://github.com/garyan2/epg123/releases" class="text-primary"><strong>here.</strong></a><br><br><br><strong><u>Latest Pre-Release (Beta):</u></strong></p>
@@ -155,10 +155,12 @@
                             file1.innerHTML = "<b>" + data.assets[0].name + "</b> (" + data.assets[0].download_count + ")";
                             file1.href = data.assets[0].browser_download_url;
                             
-                            var file2 = document.getElementById("dlPortable");
-                            file2.innerHTML = "<b>" + data.assets[1].name + "</b> (" + data.assets[1].download_count + ")";
-                            file2.href = data.assets[1].browser_download_url;
-                            
+							if (data[0].assets.length == 2) {
+								var file2 = document.getElementById("dlPortable");
+								file2.innerHTML = "<b>" + data.assets[1].name + "</b> (" + data.assets[1].download_count + ")";
+								file2.href = data.assets[1].browser_download_url;
+                            }
+							
                             document.getElementById("changelog").innerHTML = data.body;
                         }
                     });

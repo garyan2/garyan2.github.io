@@ -10,7 +10,7 @@
   <meta name="description" content="">
   
   
-  <title>Step 3: Import MXF File - EPG123</title>
+  <title>WMC on Win10/11</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -28,7 +28,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 cid-sCxjSvWjMm" once="menu" id="menu2-6n">
+  <section data-bs-version="5.1" class="menu menu2 cid-sXloQAOVF0" once="menu" id="menu2-7l">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -71,61 +71,101 @@
     </nav>
 </section>
 
-<section class="content5 cid-sCxjSvO0JD" id="content5-6m">
+<section data-bs-version="5.1" class="content5 cid-sXloQAiiEi" id="content5-7h">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 
-                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Step 3: Import MXF File</h4>
-                <p class="mbr-text mbr-fonts-style display-7">For client mode setup, you will have to direct the client where to find the remote MXF file to import. Navigate to the location of the shared MXF file and select it for import. Once the import is complete, you will be able to continue to the next step.</p>
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                    Download WMC Installer for Win8.1/Win10/Win11</h4>
+                <p class="mbr-text mbr-fonts-style display-7"></p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="image3 cid-sCApsM6qK8" id="image3-6r">
+<section data-bs-version="5.1" class="content5 cid-sXloQAqrov" id="content5-7i">
     
-
-    
-
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-7">
-                <div class="image-wrapper" align="center">
-                    <img src="assets/images/mxfsearch.png" style="max-width:771px" height="" alt="">
-                    
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> If your machine already has WMC installed from a previous community created package, it will need to be uninstalled prior to using this package.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="content12 cid-sCxnbOV2Qd" id="content12-6p">
+<section data-bs-version="5.1" class="content5 cid-sXloQAyGcs" id="content5-7j">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
-                <div class="mbr-section-btn align-center display-4">
-                    <a id="btnPrev" class="btn btn-primary" href="step2.html">← Step 2: TV Setup</a>
-                    <a id="btnNext" class="btn btn-primary" href="task.html">Schedule Updates →</a>
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7"><strong><u>Latest Release:</u></strong><br><br><strong>Version:</strong> <a id="version" class="text-primary"></a><br>
+                    <strong>Release Date:</strong> <a id="release" class="text-primary"></a><br><br>
+                    <a id="dlSetup" href="" class="text-primary"></a> - Installation package Win8.1/Win10/Win11<br><br>
+                    <strong><u>Changelog</u></strong><br>
+                    <a id="changelog" class="text-primary"></a>
+                    <br>To view the change logs and download current and past release, click <a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary"><strong>here.</strong>
+            </a></p></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+            <script>
+                var getJSON = function(url, callback) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', url, true);
+                    xhr.onload = function() {
+                        var status = xhr.status;
+                        if (status === 200) {
+                            callback(null, JSON.parse(xhr.response));
+                        } else {
+                            callback(status, xhr.response);
+                        }
+                    };
+                    xhr.send();
+                };
+                
+                window.onload = function displayRelease(){
+                    var release;
+                    getJSON('https://api.github.com/repos/garyan2/wmcsetup/releases/latest',
+                    function(err, data) {
+                        if (err != null) {
+                        } else {
+                            release = data.name;
+                            document.getElementById("version").innerHTML = data.name;
+                            document.getElementById("release").innerHTML = new Date(data.published_at);
+        
+                            var file1 = document.getElementById("dlSetup");
+                            file1.innerHTML = "<b>" + data.assets[0].name + "</b> (" + data.assets[0].download_count + ")";
+                            file1.href = data.assets[0].browser_download_url;
+
+                            document.getElementById("changelog").innerHTML = data.body;
+                        }
+                    });
+                }
+            </script>
+        </a></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+    </a></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+</a></section>
+
+<section data-bs-version="5.1" class="content12 cid-sXloQAHYJb" id="content12-7k">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="mbr-section-btn align-center display-7">
+                    <a class="btn btn-primary" href="step1.html">← Back</a>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        window.onload = function updateButtons()
-        {
-            var nextBtn = document.getElementById("btnNext");
-            nextBtn.href += window.location.search + "#client";
-            
-            var prevBtn = document.getElementById("btnPrev");
-            prevBtn.href += window.location.search;
-        }
-    </script>
 </section>
 
-<section class="footer3 cid-sCxjSwz21U" once="footers" id="footer3-6o">
+<section data-bs-version="5.1" class="footer3 cid-sXloQB48k5" once="footers" id="footer3-7m">
 
     
 
@@ -144,7 +184,7 @@
     </div>
     
     
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/m" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/r" style="color:#aaa;">This website</a> was started with Mobirise themes</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/o" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Built with Mobirise <a href="https://mobirise.site/j" style="color:#aaa;">web</a> creator</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>

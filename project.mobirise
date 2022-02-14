@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The alternate TV program guide provider for WMC and more",
-    "currentPage": "step1.html",
+    "currentPage": "win10.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -68,7 +68,8 @@
     "gdpr": false,
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "site_lang": "en"
+    "site_lang": "en",
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {

@@ -12,7 +12,7 @@
   <meta name="description" content="">
   
   
-  <title>Add WMC Channels - EPG123</title>
+  <title>WMC on Win10/11</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -30,7 +30,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 cid-sBZ8pN6Ggs" once="menu" id="menu2-3z">
+  <section data-bs-version="5.1" class="menu menu2 cid-sXloQAOVF0" once="menu" id="menu2-7l">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -73,29 +73,28 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content5 cid-sBLlFaKDfn" id="content5-30">
+<section data-bs-version="5.1" class="content5 cid-sXloQAiiEi" id="content5-7h">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 
-                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Add WMC Channels</h4>
-                <p class="mbr-text mbr-fonts-style display-7">Some OTA users will have missing channels once the TV Setup scanning has completed. This is due to Windows Media Center on Windows 7 not scanning the VHF frequencies (RF channels 2 - 13) during setup for ATSC signals. For those missing channels, it will be necessary to manually add them.
-<br>
-<br>For missing ATSC channels, you will need to determine what the missing station RF channel is, along with what the virtual channel is, by looking that information up online, or using another source such as the tuner itself and its' software package. Some online resources include <a href="https://www.tvfool.com" class="text-primary"><strong>TV Fool</strong></a>, <a href="https://antennaweb.org" class="text-primary"><strong>AntennaWeb</strong></a>, and <a href="https://www.rabbitears.info" class="text-primary"><strong>RabbitEars</strong></a>.<br><br>For missing ClearQAM channels, you will need to determine the digital channel and physical channel from the tuner and its' software package.<br><br>Within WMC, you can manually add&nbsp; channels by going to&nbsp;<strong>settings &gt; TV &gt; Guide &gt; Add Missing Channels</strong>&nbsp;from the Tasks menu strip and enter the appropriate information. Within EPG123, you can manually add channels as well. DVB and ISDB channels are not supported at this time.<br></p>
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                    Download WMC for Win8.1/Win10/Win11</h4>
+                <p class="mbr-text mbr-fonts-style display-7"></p>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content5 cid-sCBs9WpFAX" id="content5-6s">
+<section data-bs-version="5.1" class="content5 cid-sXloQAqrov" id="content5-7i">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-7">
                 <div class="card-wrapper">
                     <div class="card-box align-left">
-                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> The ability to add channels in EPG123 will not be available while performing a <strong>Client Setup</strong>. You can perform the channel additions manually within WMC during <strong>Step 2: TV Setup</strong> or wait until after setup is complete.</p>
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> If your machine already has WMC installed from a previous community created package, it will need to be uninstalled prior to using this package. It is also critical to reboot the machine after the uninstall so that the msi installer can delete the old c:\windows\ehome folder if it is still present.</p>
                     </div>
                 </div>
             </div>
@@ -103,32 +102,107 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content5 cid-sC7shthYz2" id="content5-4t">
+<section data-bs-version="5.1" class="content5 cid-sZZW0nFaDS" id="custom-html-7r">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-7">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE: </strong>CableCARD users are limited to using WMC on Win10 1511 and older. DRM protected channels will not work on newer versions of Windows10/11.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXloQAyGcs" id="content5-7j">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7"><strong><u>Latest Release:</u></strong><br><br><strong>Version:</strong> <a id="version" class="text-primary"></a><br>
+                    <strong>Release Date:</strong> <a id="release" class="text-primary"></a><br><br>
+                    <a id="dlSetup" href="" class="text-primary"></a> - Installation package Win8.1/Win10/Win11<br><br>
+                    <strong><u>Changelog</u></strong><br>
+                    <a id="changelog" class="text-primary"></a>
+                    <br><br>To view the change logs and download current and past release, click <a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary"><strong>here.</strong>
+            </a></p></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+            <script>
+                var getJSON = function(url, callback) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', url, true);
+                    xhr.onload = function() {
+                        var status = xhr.status;
+                        if (status === 200) {
+                            callback(null, JSON.parse(xhr.response));
+                        } else {
+                            callback(status, xhr.response);
+                        }
+                    };
+                    xhr.send();
+                };
+                
+                window.onload = function displayRelease(){
+                    var release;
+                    getJSON('https://api.github.com/repos/garyan2/wmcsetup/releases/latest',
+                    function(err, data) {
+                        if (err != null) {
+                        } else {
+                            release = data.name;
+                            document.getElementById("version").innerHTML = data.name;
+                            document.getElementById("release").innerHTML = new Date(data.published_at);
+        
+                            var file1 = document.getElementById("dlSetup");
+                            file1.innerHTML = "<b>" + data.assets[0].name + "</b> (" + data.assets[0].download_count + ")";
+                            file1.href = data.assets[0].browser_download_url;
+
+                            document.getElementById("changelog").innerHTML = data.body;
+                        }
+                    });
+                }
+            </script>
+        </a></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+    </a></div><a href="https://github.com/garyan2/wmcsetup/releases" class="text-primary">
+</a></section>
+
+<section data-bs-version="5.1" class="content5 cid-sXrfRk9Nvl" id="content5-7o">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">WMC Configuration: Pre-TV Setup</h4>
+                <p class="mbr-text mbr-fonts-style display-7">
+                    Prior to performing TV Setup, it is recommended to do the following in order to avoid WMC trying to contact the offline MS servers to download headend data for your country/postal code. This will also allow you to agree to the Program Guide Terms of Service without issue and will automatically enable the guide in the TV menu strip if you select 'I agree'.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXr5Q5vUIs" id="content5-7n">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
                 
                 
                 <div class="mbr-text mbr-fonts-style display-7">
                     <ol>
-                        <span style="color:blue;"><h5><strong><em>EPG123 Method</em></strong></h5></span>
-                        <li>Open the <strong>EPG123 Client</strong> and click the green <strong>'+'</strong> button. You may have to expand the GUI to see the button.</li>
-                        <li>Select the tuner group in the pulldown combobox and enter the physical/virtual channel numbers as needed. The callsign field can be left blank. Click the <strong>[Add Channel]</strong> button.</li>
-                        <li>Repeat step 2 as necessary.</li>
-                        <li>When done adding all channels, close the form using the 'X' button.</li>
+                        <li>Open WMC and go to <strong>settings &gt; General &gt; Windows Media Center Setup &gt; Set Up Internet Connection</strong>.</li><li>Select <strong>'No'</strong>&nbsp;to having an "always on" Internet connection.</li>
                     </ol>
                 </div>
-                <div class="image-wrapper col-12">
-                    <a href="assets/images/addchannels.gif">
-                        <img src="assets/images/addchannels.gif" width="" alt="">
-                    </a>
+                <div class="image-wrapper col-12" align="center">
+                    <img src="assets/images/inetconnection.png" alt="" style="max-width:1024px">
                 </div>
             </div>
             <div class="col-md-12 col-lg-7">
                 <div class="card-wrapper">
                     <div class="card-box align-left">
-                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE:</strong> Guide listings for the new channels will be empty when first created. To map guide listings to the new channels, refer to <a href="map.html" class="text-primary"><strong>Map Listings</strong></a>.</p>
+                        <p class="mbr-text mbr-fonts-style display-7"><strong>NOTE: </strong>After TV Setup is complete, you can change the internet connection to always on if you desire. This is only recommended to be done prior to performing TV Setup.</p>
                     </div>
                 </div>
             </div>
@@ -136,19 +210,20 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content12 cid-sC7wK8xYeJ" id="content12-4u">
+<section data-bs-version="5.1" class="content12 cid-sXloQAHYJb" id="content12-7k">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 <div class="mbr-section-btn align-center display-7">
-                    <a class="btn btn-primary" onclick="history.back()">← Back</a></div>
+                    <a class="btn btn-primary" href="step1.html">← Back</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="footer3 cid-sChfINJhMO" once="footers" id="footer3-69">
+<section data-bs-version="5.1" class="footer3 cid-sXloQB48k5" once="footers" id="footer3-7m">
 
     
 
@@ -167,7 +242,7 @@
     </div>
     
     
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/o" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Mobirise site creator - <a href="https://mobirise.site/p" style="color:#aaa;">Learn more</a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/l" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">This <a href="https://mobirise.site/e" style="color:#aaa;">page</a> was made with Mobirise</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>

@@ -119,7 +119,7 @@
         
                             var file1 = document.getElementById("dlSetup");
                             file1.innerHTML = "<b>" + data.assets[1].name + "</b> (" + data.assets[1].download_count + ")";
-                            file1.href = data.assets[0].browser_download_url;
+                            file1.href = data.assets[1].browser_download_url;
 
                             document.getElementById("changelog").innerHTML = data.body;
                         }
